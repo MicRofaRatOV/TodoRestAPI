@@ -4,7 +4,7 @@ import bodyParser from 'body-parser';
 import cors from 'cors';
 
 const router = express.Router();
-let todos: Todo[] = [{"id":1,"title":"Learn TypeScript","completed":false,"createdAt":new Date(),"description":"SSSHHHIIITTT"}];
+let todos: Todo[] = [{"id":1,"title":"Run todo server","completed":true,"createdAt":new Date()}];
 
 // Getting last id
 let nextId: number = 1;
